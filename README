@@ -1,0 +1,11 @@
+In order to run CLARA you will need:
+
+* a sym link to the "extensions" directory of the NetLogo installation 
+  in the current working directory of the model execution
+* a subdirectory with the exact name of the "test" that you are running
+  in the current working directory of the model execution (e.g. "./test")
+* behaviorspace.sh (or some other similar run script derived from this)
+  configured to run the appropriate test (and automatically create the 
+  properly named subdirectory for you)
+
+Edit "behaviorspace.sh" for site/machine-specific changes
